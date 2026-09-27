@@ -44,7 +44,7 @@ def activacion_signo(z):
         return 1
     return -1
 
-def escojer_pesos(cantidad_entradas):
+def escoger_pesos(cantidad_entradas):
     sesgo = leer_numero("Bias (b): ")
     pesos = []
     
@@ -129,7 +129,7 @@ def main():
     etiquetas = [fila[-1] for fila in datos]
 
     while True:
-        sesgo, pesos = escojer_pesos(cantidad_entradas)
+        sesgo, pesos = escoger_pesos(cantidad_entradas)
         activacion, nombre_activacion = escoger_funactivacion()
 
         predecciones = []
