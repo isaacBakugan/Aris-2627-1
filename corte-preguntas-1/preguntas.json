@@ -461,7 +461,7 @@
         "Opción A (Una capa de salida lineal con distribución gaussiana estándar de varianza fija)",
         "Opción B (Una red de densidad de mezcla, cuyas salidas parametrizan una mezcla de componentes gaussianas)",
         "Opción C (Una capa sigmoide entrenada con pérdida de error absoluto medio)",
-        "Opción D (Una capa*Hard-tanh con matriz de precisión diagonal)"
+        "Opción D (Una capa Hard-tanh con matriz de precisión diagonal)"
       ],
       "correct_option": "Opción B (Una red de densidad de mezcla, cuyas salidas parametrizan una mezcla de componentes gaussianas)",
       "difficulty_level": 6
