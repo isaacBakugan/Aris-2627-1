@@ -6,25 +6,25 @@
       "id": "tue1-tf-1",
       "reading": "tuesday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 1",
+      "statement": "En la definición formal de aprendizaje automático propuesta por Tom Mitchell (1997), el proceso de aprendizaje en sí mismo constituye la tarea (T)",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "correct_option": "Falso",
+      "difficulty_level": 2
     },
     {
       "id": "tue1-tf-2",
       "reading": "tuesday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 1",
+      "statement": "Los hiperparámetros que determinan la capacidad de un modelo no se deben optimizar sobre el conjunto de entrenamiento, ya que el algoritmo siempre elegiría la capacidad máxima disponible, causando sobreajuste.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 4
     },
     {
       "id": "tue1-tf-3",
@@ -66,29 +66,29 @@
       "id": "tue1-mc-1",
       "reading": "tuesday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 1",
+      "statement": "¿Por qué la medida de desempeño P de un modelo de machine learning se evalúa típicamente en un conjunto de prueba (test set) separado del conjunto de entrenamiento?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Porque el conjunto de entrenamiento no contiene etiquetas reales)",
+        "Opción B (Para reducir el costo computacional de la optimización)",
+        "Opción C (Para evaluar la capacidad del modelo de generalizar ante datos nuevos no vistos previamente)",
+        "Opción D (Porque la función de pérdida cuadrática solo se puede calcular sobre datos independientes)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Opción C (Para evaluar la capacidad del modelo de generalizar ante datos nuevos no vistos previamente)",
+      "difficulty_level": 2
     },
     {
       "id": "tue1-mc-2",
       "reading": "tuesday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 1",
+      "statement": "¿Cuál de las siguientes tareas de machine learning se caracteriza por producir como salida una estructura cuyos elementos tienen relaciones fuertemente interconectadas entre sí (por ejemplo, el etiquetado gramatical o la segmentación de imágenes por píxel)?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Regresión)",
+        "Opción B (Salida estructurada)",
+        "Opción C (Detección de anomalías)",
+        "Opción D (Imputación de valores faltantes)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Opción B (Salida estructurada)",
+      "difficulty_level": 4
     },
     {
       "id": "tue1-mc-3",
@@ -136,25 +136,25 @@
       "id": "thu1-tf-1",
       "reading": "thursday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 1",
+      "statement": "En el aprendizaje supervisado, el agente aprende identificando patrones en las entradas sin necesidad de que un entorno le proporcione pares explícitos de entrada-salida",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "correct_option": "Falso",
+      "difficulty_level": 2
     },
     {
       "id": "thu1-tf-2",
       "reading": "thursday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 1",
+      "statement": "El principio de la Navaja de Ockham postula que, entre múltiples hipótesis consistentes con los datos de entrenamiento, se debe seleccionar la hipótesis más simple",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 3
     },
     {
       "id": "thu1-tf-3",
@@ -196,29 +196,29 @@
       "id": "thu1-mc-1",
       "reading": "thursday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 1",
+      "statement": "¿En cuál de los siguientes tipos de aprendizaje el agente aprende mediante una serie de recompensas o castigos por sus acciones pasadas, sin recibir pares explícitos de entrada-salida en cada paso?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Aprendizaje no supervisado)",
+        "Opción B (Aprendizaje por refuerzo)",
+        "Opción C (Aprendizaje deductivo)",
+        "Opción D (Aprendizaje semi-supervisado)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Opción B (Aprendizaje por refuerzo)",
+      "difficulty_level": 2
     },
     {
       "id": "thu1-mc-2",
       "reading": "thursday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 1",
+      "statement": "¿Cuál es el propósito fundamental del algoritmo de back-propagation en redes neuronales multicapa?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Propagar los datos de entrada desde la capa de salida hacia la capa de entrada)",
+        "Opción B (Calcular los errores en la capa de salida y propagarlos hacia atrás para evaluar la contribución al error de las unidades ocultas y actualizar sus pesos)",
+        "Opción C (Convertir la red neuronal en un modelo no paramétrico basado en tablas de búsqueda)",
+        "Opción D (Seleccionar la arquitectura óptima de la red eliminando automáticamente los nodos redundantes)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Opción B (Calcular los errores en la capa de salida y propagarlos hacia atrás para evaluar la contribución al error de las unidades ocultas y actualizar sus pesos)",
+      "difficulty_level": 5
     },
     {
       "id": "thu1-mc-3",
@@ -266,25 +266,25 @@
       "id": "tue2-tf-1",
       "reading": "tuesday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 2",
+      "statement": "La única condición indispensable que se exige a la función de activación para poder aplicar el algoritmo de back-propagation es que sea continua y diferenciable",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 3
     },
     {
       "id": "tue2-tf-2",
       "reading": "tuesday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 2",
+      "statement": "El batch learning es más susceptible de quedar atrapado en un mínimo local que el online learning",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 5
     },
     {
       "id": "tue2-tf-3",
@@ -326,29 +326,29 @@
       "id": "tue2-mc-1",
       "reading": "tuesday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 2",
+      "statement": "¿Cuál es el efecto principal de incorporar el término de momento (beta) en la regla de actualización de pesos durante el back-propagation?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Elimina la necesidad de utilizar un conjunto de validación)",
+        "Opción B (Acelera el ajuste de pesos en direcciones constantes y estabiliza el entrenamiento cuando las derivadas parciales alternan de signo en iteraciones consecutivas)",
+        "Opción C (Garantiza que el algoritmo siempre alcance el mínimo global de la función de error)",
+        "Opción D (Reduce el número total de parámetros libres W requeridos por la red)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Opción B (Acelera el ajuste de pesos en direcciones constantes y estabiliza el entrenamiento cuando las derivadas parciales alternan de signo en iteraciones consecutivas)",
+      "difficulty_level": 4
     },
     {
       "id": "tue2-mc-2",
       "reading": "tuesday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 2",
+      "statement": "¿Cuál de las siguientes es una ventaja del online learning frente al batch learning?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Facilita la paralelizabilidad del algoritmo en entornos de procesamiento masivo)",
+        "Opción B (Proporciona una estimación exacta y determinista del gradiente sobre todo el conjunto de entrenamiento)",
+        "Opción C (Requiere significativamente menos almacenamiento en memoria y permite rastrear pequeños cambios en entornos no estacionarios)",
+        "Opción D (Garantiza la convergencia del método de descenso más pronunciado)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Opción C (Requiere significativamente menos almacenamiento en memoria y permite rastrear pequeños cambios en entornos no estacionarios)",
+      "difficulty_level": 3
     },
     {
       "id": "tue2-mc-3",
@@ -396,25 +396,25 @@
       "id": "thu2-tf-1",
       "reading": "thursday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 2",
+      "statement": "El Teorema de Aproximación Universal garantiza que, si existe una red neuronal feedforward con una capa oculta capaz de representar una función continua dada, el algoritmo de descenso de gradiente tiene asegurado encontrar los parámetros exactos de esa función durante el entrenamiento.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "correct_option": "Falso",
+      "difficulty_level": 5
     },
     {
       "id": "thu2-tf-2",
       "reading": "thursday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 2",
+      "statement": "El algoritmo de back-propagation estándar es un caso especial de acumulación en modo inverso, y su costo computacional escala de forma lineal con el número de aristas del grafo de cómputo para funciones con una única salida escalar.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 7
     },
     {
       "id": "thu2-tf-3",
@@ -456,29 +456,29 @@
       "id": "thu2-mc-1",
       "reading": "thursday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 2",
+      "statement": "Al diseñar una red neuronal para regresión multimodal donde la variable de salida continua y puede tener múltiples picos o valores probables para una misma entrada x, ¿qué tipo de capa de salida se debe emplear?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Una capa de salida lineal con distribución gaussiana estándar de varianza fija)",
+        "Opción B (Una red de densidad de mezcla, cuyas salidas parametrizan una mezcla de componentes gaussianas)",
+        "Opción C (Una capa sigmoide entrenada con pérdida de error absoluto medio)",
+        "Opción D (Una capa*Hard-tanh con matriz de precisión diagonal)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Opción B (Una red de densidad de mezcla, cuyas salidas parametrizan una mezcla de componentes gaussianas)",
+      "difficulty_level": 6
     },
     {
       "id": "thu2-mc-2",
       "reading": "thursday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 2",
+      "statement": "En los entornos de programación de aprendizaje profundo, ¿cuál es la diferencia clave entre la diferenciación símbolo a número y la diferenciación símbolo a símbolo?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Símbolo a número calcula directamente los valores numéricos del gradiente para entradas específicas, mientras que símbolo a símbolo añade nodos adicionales al grafo computacional para describir simbólicamente las derivadas, permitiendo calcular derivadas de orden superior)",
+        "Opción B (Símbolo a número solo se aplica a vectores, mientras que símbolo a símbolo requiere que los datos sean escalares puramente simbólicos)",
+        "Opción C (Símbolo a número realiza diferenciación en forward mode, mientras que símbolo a símbolo no utiliza la regla de la cadena)",
+        "Opción D (Símbolo a número requiere evaluar la matriz Hessiana completa, mientras que símbolo a símbolo solo calcula derivadas aproximadas)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Opción A (Símbolo a número calcula directamente los valores numéricos del gradiente para entradas específicas, mientras que símbolo a símbolo añade nodos adicionales al grafo computacional para describir simbólicamente las derivadas, permitiendo calcular derivadas de orden superior)",
+      "difficulty_level": 8
     },
     {
       "id": "thu2-mc-3",
