@@ -30,25 +30,25 @@
       "id": "tue1-tf-3",
       "reading": "tuesday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 1",
+      "statement": "El teorema de No Free Lunch (NFL) establece que promediando sobre todas las posibles distribuciones generadoras de datos, ningún algoritmo de clasificación es mejor que otro.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 3
     },
     {
       "id": "tue1-tf-4",
       "reading": "tuesday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 1",
+      "statement": "Si un estimador puntual es asintóticamente insesgado, se garantiza matemáticamente que también es un estimador consistente.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "correct_option": "Falso",
+      "difficulty_level": 7
     },
     {
       "id": "tue1-tf-5",
@@ -94,29 +94,29 @@
       "id": "tue1-mc-3",
       "reading": "tuesday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 1",
+      "statement": "Bajo la perspectiva probabilística de Goodfellow, ¿a qué equivale maximizar la log-verosimilitud condicional para un modelo con ruido gaussiano de varianza fija?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (A minimizar el error cuadrático medio (MSE) sobre el conjunto de entrenamiento)",
+        "Opción B (A maximizar directamente la varianza del estimador puntual)",
+        "Opción C (A minimizar la dimensión Vapnik-Chervonenkis del espacio de hipótesis)",
+        "Opción D (A calcular la pseudoinversa de Moore-Penrose sin término de regularización)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Opción A (A minimizar el error cuadrático medio (MSE) sobre el conjunto de entrenamiento)",
+      "difficulty_level": 9
     },
     {
       "id": "tue1-mc-4",
       "reading": "tuesday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 1",
+      "statement": "¿Cuál es la premisa central de la hipótesis del manifold en tareas complejas de IA como visión y procesamiento de audio?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Los datos ocupan uniformemente todo el volumen del espacio euclidiano de alta dimensión)",
+        "Opción B (La distribución de probabilidad real se concentra cerca de subespacios o variedades conectadas de menor dimensión embebidas en el espacio original)",
+        "Opción C (Todas las funciones continuas pueden aproximarse exactamente usando únicamente interpolación local y plantillas euclidianas)",
+        "Opción D (El error de Bayes es siempre cero cuando la dimensionalidad de entrada supera el número de ejemplos)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Opción B (La distribución de probabilidad real se concentra cerca de subespacios o variedades conectadas de menor dimensión embebidas en el espacio original)",
+      "difficulty_level": 3
     },
     {
       "id": "tue1-mc-5",
@@ -160,25 +160,25 @@
       "id": "thu1-tf-3",
       "reading": "thursday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 1",
+      "statement": "La técnica de parada temprana (early stopping) en árboles de decisión puede fallar al descartar atributos que parecen no tener ganancia de forma individual pero que son informativos al combinarse, como ocurre en el problema XOR.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 6
     },
     {
       "id": "thu1-tf-4",
       "reading": "thursday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 1",
+      "statement": "En regresión lineal multivariada, la regularización L1 tiende a producir modelos dispersos (sparse) fijando coeficientes en cero debido a que sus contornos de penalización no son lisos en los ejes, a diferencia de la regularización L2.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 6
     },
     {
       "id": "thu1-tf-5",
@@ -224,29 +224,29 @@
       "id": "thu1-mc-3",
       "reading": "thursday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 1",
+      "statement": "En teoría de aprendizaje PAC (Probably Approximately Correct), ¿a qué se refiere el término complejidad muestral?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Al número de atributos que requiere un vector para ser linealmente separable)",
+        "Opción B (Al número mínimo de ejemplos de entrenamiento necesarios para garantizar que, con alta probabilidad, una hipótesis consistente tenga un error menor o igual a epsilon)",
+        "Opción C (Al tiempo de ejecución en el peor de los casos del algoritmo greedy para podar un árbol)",
+        "Opción D (A la cantidad de vectores de soporte almacenados por una máquina de soporte vectorial)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Opción B (Al número mínimo de ejemplos de entrenamiento necesarios para garantizar que, con alta probabilidad, una hipótesis consistente tenga un error menor o igual a epsilon)",
+      "difficulty_level": 5
     },
     {
       "id": "thu1-mc-4",
       "reading": "thursday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 1",
+      "statement": "En las máquinas de vectores de soporte (SVM), ¿cuál es la ventajaque aporta el truco del kernel?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Permite calcular productos internos en un espacio de características de alta dimensión evaluando una función sobre los datos de entrada, sin transformar explícitamente los vectores a dicho espacio)",
+        "Opción B (Elimina completamente la necesidad de resolver problemas de programación cuadrática)",
+        "Opción C (Garantiza que todos los datos de entrenamiento se conviertan en vectores de soporte activos)",
+        "Opción D (Asegura que el hiperplano pase estrictamente a través del origen de coordenadas)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Opción A (Permite calcular productos internos en un espacio de características de alta dimensión evaluando una función sobre los datos de entrada, sin transformar explícitamente los vectores de ese espacio)",
+      "difficulty_level": 4
     },
     {
       "id": "thu1-mc-5",
@@ -290,25 +290,25 @@
       "id": "tue2-tf-3",
       "reading": "tuesday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 2",
+      "statement": "El Teorema de Aproximación Universal para perceptrones multicapa es un teorema constructivo que proporciona el procedimiento exacto para calcular los pesos óptimos de la red.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "correct_option": "Falso",
+      "difficulty_level": 4
     },
     {
       "id": "tue2-tf-4",
       "reading": "tuesday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 2",
+      "statement": "Para una neurona oculta j, el cálculo de su gradiente local en backpropagation requiere conocer las señales de error o gradientes locales de todas las neuronas de la capa siguiente a las que está conectada.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 5
     },
     {
       "id": "tue2-tf-5",
@@ -354,29 +354,29 @@
       "id": "tue2-mc-3",
       "reading": "tuesday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 2",
+      "statement": "Al resolver el problema de clasificación XOR con una red neuronal de una capa oculta y neuronas tipo McCulloch-Pitts, ¿cuál es la función geométrica que cumple la capa oculta?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Construir dos fronteras de decisión lineales separadas cuya combinación lineal permite aislar los patrones no separables linealmente)",
+        "Opción B (Eliminar la necesidad de utilizar pesos de sesgo o umbrales en las neuronas)",
+        "Opción C (Convertir el espacio bidimensional de entrada en un espacio de una sola dimensión)",
+        "Opción D (Garantizar que la matriz de covarianza de los datos se vuelva estrictamente diagonal)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Opción A (Construir dos fronteras de decisión lineales separadas cuya combinación lineal permite aislar los patrones no separables linealmente)",
+      "difficulty_level": 9
     },
     {
       "id": "tue2-mc-4",
       "reading": "tuesday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 2",
+      "statement": "¿Cuáles son los tres principios arquitectónicos combinados en las Redes Neuronales Convolucionales (CNN) para asegurar invariancia frente a traslaciones, cambios de escala y distorsiones locales?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Campos receptivos locales, pesos compartidos y submuestreo espacial o temporal)",
+        "Opción B (Conexiones recurrentes, aprendizaje no supervisado y modelos no paramétricos)",
+        "Opción C (Aproximación por polinomios ortogonales, funciones radiales y matrices de diseño)",
+        "Opción D (Descomposición en valores singulares, análisis de componentes principales y regularización L1)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Opción A (Campos receptivos locales, pesos compartidos y submuestreo espacial o temporal)",
+      "difficulty_level": 3
     },
     {
       "id": "tue2-mc-5",
