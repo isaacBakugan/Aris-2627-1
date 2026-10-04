@@ -1,5 +1,5 @@
 {
-  "team": "",
+  "team": "Aris",
   "assignment": "corte-preguntas-1",
   "questions": [
     {
@@ -7,10 +7,7 @@
       "reading": "tuesday-week-1",
       "type": "true_false",
       "statement": "En la definición formal de aprendizaje automático propuesta por Tom Mitchell (1997), el proceso de aprendizaje en sí mismo constituye la tarea (T)",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Falso",
       "difficulty_level": 2
     },
@@ -19,10 +16,7 @@
       "reading": "tuesday-week-1",
       "type": "true_false",
       "statement": "Los hiperparámetros que determinan la capacidad de un modelo no se deben optimizar sobre el conjunto de entrenamiento, ya que el algoritmo siempre elegiría la capacidad máxima disponible, causando sobreajuste.",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
       "difficulty_level": 4
     },
@@ -31,10 +25,7 @@
       "reading": "tuesday-week-1",
       "type": "true_false",
       "statement": "El teorema de No Free Lunch (NFL) establece que promediando sobre todas las posibles distribuciones generadoras de datos, ningún algoritmo de clasificación es mejor que otro.",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
       "difficulty_level": 3
     },
@@ -43,10 +34,7 @@
       "reading": "tuesday-week-1",
       "type": "true_false",
       "statement": "Si un estimador puntual es asintóticamente insesgado, se garantiza matemáticamente que también es un estimador consistente.",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Falso",
       "difficulty_level": 7
     },
@@ -54,13 +42,10 @@
       "id": "tue1-tf-5",
       "reading": "tuesday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 1",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "statement": "Cuando el error de generalización se mide con el MSE, aumentar la capacidad del modelo tiende a reducir la varianza y a aumentar el sesgo.",
+      "options": ["Verdadero", "Falso"],
+      "correct_option": "Falso",
+      "difficulty_level": 4
     },
     {
       "id": "tue1-mc-1",
@@ -122,25 +107,22 @@
       "id": "tue1-mc-5",
       "reading": "tuesday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 1",
+      "statement": "En la estimación bayesiana MAP (máximo a posteriori) para regresión lineal, ¿a qué corresponde usar una distribución a priori gaussiana sobre los pesos?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (A la estimación por máxima verosimilitud sin ningún término de regularización)",
+        "Opción B (A reemplazar el modelo lineal por un clasificador de k vecinos más cercanos)",
+        "Opción C (A reducir la dimensionalidad de las entradas mediante análisis de componentes principales (PCA))",
+        "Opción D (A la regularización por decaimiento de pesos (weight decay))"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Opción D (A la regularización por decaimiento de pesos (weight decay))",
+      "difficulty_level": 7
     },
     {
       "id": "thu1-tf-1",
       "reading": "thursday-week-1",
       "type": "true_false",
       "statement": "En el aprendizaje supervisado, el agente aprende identificando patrones en las entradas sin necesidad de que un entorno le proporcione pares explícitos de entrada-salida",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Falso",
       "difficulty_level": 2
     },
@@ -149,10 +131,7 @@
       "reading": "thursday-week-1",
       "type": "true_false",
       "statement": "El principio de la Navaja de Ockham postula que, entre múltiples hipótesis consistentes con los datos de entrenamiento, se debe seleccionar la hipótesis más simple",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
       "difficulty_level": 3
     },
@@ -161,10 +140,7 @@
       "reading": "thursday-week-1",
       "type": "true_false",
       "statement": "La técnica de parada temprana (early stopping) en árboles de decisión puede fallar al descartar atributos que parecen no tener ganancia de forma individual pero que son informativos al combinarse, como ocurre en el problema XOR.",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
       "difficulty_level": 6
     },
@@ -173,10 +149,7 @@
       "reading": "thursday-week-1",
       "type": "true_false",
       "statement": "En regresión lineal multivariada, la regularización L1 tiende a producir modelos dispersos (sparse) fijando coeficientes en cero debido a que sus contornos de penalización no son lisos en los ejes, a diferencia de la regularización L2.",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
       "difficulty_level": 6
     },
@@ -184,13 +157,10 @@
       "id": "thu1-tf-5",
       "reading": "thursday-week-1",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 1",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "statement": "En la validación cruzada de k particiones (k-fold), cada ejemplo se usa como dato de prueba en k−1 de las k rondas de aprendizaje.",
+      "options": ["Verdadero", "Falso"],
+      "correct_option": "Falso",
+      "difficulty_level": 4
     },
     {
       "id": "thu1-mc-1",
@@ -245,32 +215,29 @@
         "Opción C (Garantiza que todos los datos de entrenamiento se conviertan en vectores de soporte activos)",
         "Opción D (Asegura que el hiperplano pase estrictamente a través del origen de coordenadas)"
       ],
-      "correct_option": "Opción A (Permite calcular productos internos en un espacio de características de alta dimensión evaluando una función sobre los datos de entrada, sin transformar explícitamente los vectores de ese espacio)",
+      "correct_option": "Opción A (Permite calcular productos internos en un espacio de características de alta dimensión evaluando una función sobre los datos de entrada, sin transformar explícitamente los vectores a dicho espacio)",
       "difficulty_level": 4
     },
     {
       "id": "thu1-mc-5",
       "reading": "thursday-week-1",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 1",
+      "statement": "En el método de ensamble boosting, después de generar cada hipótesis, ¿qué se hace con los pesos de los ejemplos de entrenamiento?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Se reinician todos los pesos en 1 para que la siguiente hipótesis sea independiente de la anterior)",
+        "Opción B (Se eliminan del conjunto los ejemplos mal clasificados para no seguir equivocándose con ellos)",
+        "Opción C (Se aumentan los pesos de los ejemplos mal clasificados y se disminuyen los de los bien clasificados)",
+        "Opción D (Se asigna mayor peso a los ejemplos que la hipótesis clasificó correctamente para reforzarlos)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Opción C (Se aumentan los pesos de los ejemplos mal clasificados y se disminuyen los de los bien clasificados)",
+      "difficulty_level": 5
     },
     {
       "id": "tue2-tf-1",
       "reading": "tuesday-week-2",
       "type": "true_false",
       "statement": "La única condición indispensable que se exige a la función de activación para poder aplicar el algoritmo de back-propagation es que sea continua y diferenciable",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
       "difficulty_level": 3
     },
@@ -279,10 +246,7 @@
       "reading": "tuesday-week-2",
       "type": "true_false",
       "statement": "El batch learning es más susceptible de quedar atrapado en un mínimo local que el online learning",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
       "difficulty_level": 5
     },
@@ -291,10 +255,7 @@
       "reading": "tuesday-week-2",
       "type": "true_false",
       "statement": "El Teorema de Aproximación Universal para perceptrones multicapa es un teorema constructivo que proporciona el procedimiento exacto para calcular los pesos óptimos de la red.",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Falso",
       "difficulty_level": 4
     },
@@ -303,10 +264,7 @@
       "reading": "tuesday-week-2",
       "type": "true_false",
       "statement": "Para una neurona oculta j, el cálculo de su gradiente local en backpropagation requiere conocer las señales de error o gradientes locales de todas las neuronas de la capa siguiente a las que está conectada.",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
       "difficulty_level": 5
     },
@@ -314,13 +272,10 @@
       "id": "tue2-tf-5",
       "reading": "tuesday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 2",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "statement": "En back-propagation, fijar un parámetro de tasa de aprendizaje muy pequeño puede volver inestable la red, mientras que uno grande produce una trayectoria más suave en el espacio de pesos.",
+      "options": ["Verdadero", "Falso"],
+      "correct_option": "Falso",
+      "difficulty_level": 3
     },
     {
       "id": "tue2-mc-1",
@@ -382,25 +337,22 @@
       "id": "tue2-mc-5",
       "reading": "tuesday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 2",
+      "statement": "De los factores que influyen en la generalización de un perceptrón multicapa, ¿cuál no está bajo el control del diseñador?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (El tamaño de la muestra de entrenamiento y qué tan representativa es del entorno)",
+        "Opción B (La arquitectura de la red neuronal)",
+        "Opción C (La tasa de aprendizaje usada durante el entrenamiento)",
+        "Opción D (La complejidad física del problema que se quiere resolver)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Opción D (La complejidad física del problema que se quiere resolver)",
+      "difficulty_level": 4
     },
     {
       "id": "thu2-tf-1",
       "reading": "thursday-week-2",
       "type": "true_false",
       "statement": "El Teorema de Aproximación Universal garantiza que, si existe una red neuronal feedforward con una capa oculta capaz de representar una función continua dada, el algoritmo de descenso de gradiente tiene asegurado encontrar los parámetros exactos de esa función durante el entrenamiento.",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Falso",
       "difficulty_level": 5
     },
@@ -409,10 +361,7 @@
       "reading": "thursday-week-2",
       "type": "true_false",
       "statement": "El algoritmo de back-propagation estándar es un caso especial de acumulación en modo inverso, y su costo computacional escala de forma lineal con el número de aristas del grafo de cómputo para funciones con una única salida escalar.",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
       "difficulty_level": 7
     },
@@ -420,37 +369,28 @@
       "id": "thu2-tf-3",
       "reading": "thursday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 2",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "statement": "Las unidades lineales rectificadas (ReLU) no pueden aprender mediante métodos basados en gradiente a partir de ejemplos en los que su activación es cero.",
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 4
     },
     {
       "id": "thu2-tf-4",
       "reading": "thursday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 2",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "statement": "Con una unidad de salida sigmoide, entrenar con error cuadrático medio es preferible a usar máxima verosimilitud, porque el error cuadrático evita que la pérdida se sature cuando σ(z) se satura.",
+      "options": ["Verdadero", "Falso"],
+      "correct_option": "Falso",
+      "difficulty_level": 6
     },
     {
       "id": "thu2-tf-5",
       "reading": "thursday-week-2",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 2",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "statement": "Si las funciones de las capas ocultas de una red feedforward fueran lineales, la red completa seguiría siendo una función lineal de su entrada.",
+      "options": ["Verdadero", "Falso"],
       "correct_option": "Verdadero",
-      "difficulty_level": 1
+      "difficulty_level": 3
     },
     {
       "id": "thu2-mc-1",
@@ -484,43 +424,43 @@
       "id": "thu2-mc-3",
       "reading": "thursday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 2",
+      "statement": "¿Qué propiedad de la función softmax permite derivar su variante numéricamente estable, softmax(z − maxᵢ zᵢ)?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Que siempre produce una única salida entre 0 y 1)",
+        "Opción B (Que nunca se satura, sin importar los valores de entrada)",
+        "Opción C (Que su salida no cambia si se suma el mismo escalar a todas sus entradas)",
+        "Opción D (Que es una función lineal de sus entradas)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Opción C (Que su salida no cambia si se suma el mismo escalar a todas sus entradas)",
+      "difficulty_level": 6
     },
     {
       "id": "thu2-mc-4",
       "reading": "thursday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 2",
+      "statement": "¿Qué consecuencia tiene la no linealidad de una red neuronal sobre su entrenamiento, en comparación con los modelos lineales?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (La función de costo se vuelve convexa y tiene un único mínimo global)",
+        "Opción B (Ya no se puede usar la regla de la cadena para calcular los gradientes)",
+        "Opción C (El entrenamiento puede resolverse en forma cerrada con las ecuaciones normales)",
+        "Opción D (La mayoría de las funciones de pérdida se vuelven no convexas, por lo que se entrena con optimizadores iterativos basados en gradiente, sin garantía de convergencia global y sensibles a los valores iniciales)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Opción D (La mayoría de las funciones de pérdida se vuelven no convexas, por lo que se entrena con optimizadores iterativos basados en gradiente, sin garantía de convergencia global y sensibles a los valores iniciales)",
+      "difficulty_level": 5
     },
     {
       "id": "thu2-mc-5",
       "reading": "thursday-week-2",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 2",
+      "statement": "¿Qué distingue a una unidad maxout de una ReLU convencional?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Maxout aplica max(0, z) elemento a elemento, igual que la ReLU, pero con una pendiente aprendida)",
+        "Opción B (Maxout divide z en grupos de k valores y devuelve el máximo de su grupo, por lo que puede aprender una función convexa lineal por partes de hasta k piezas)",
+        "Opción C (Maxout solo puede usarse en la capa de salida de la red)",
+        "Opción D (Maxout tiene menos parámetros que una ReLU, por lo que necesita menos regularización)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1
+      "correct_option": "Opción B (Maxout divide z en grupos de k valores y devuelve el máximo de su grupo, por lo que puede aprender una función convexa lineal por partes de hasta k piezas)",
+      "difficulty_level": 8
     }
   ]
 }
