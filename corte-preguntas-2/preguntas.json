@@ -1,32 +1,32 @@
 {
-  "team": "",
+  "team": "Aris",
   "assignment": "corte-preguntas-2",
   "questions": [
     {
       "id": "tue3-tf-1",
       "reading": "tuesday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 3",
+      "statement": "El uso de una función de pooling, como el max pooling, introduce una invariancia aproximada ante pequeñas traslaciones de la señal de entrada.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 3,
+      "source_quote": "'In all cases, pooling helps to make the representation approximately invariant to small translations of the input.'"
     },
     {
       "id": "tue3-tf-2",
       "reading": "tuesday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 3",
+      "statement": "La operación de convolución implementada en la mayoría de las librerías de aprendizaje profundo no realiza el kernel flipping, por lo que matemáticamente corresponde a la correlación cruzada",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 4,
+      "source_quote": "'Instead, many neural network libraries implement a related function called the cross-correlation, which is the same as convolution but without flipping the kernel'. 'An algorithm based on convolution with kernel flipping will learn a kernel that is flipped relative to the kernel learned by an algorithm without the flipping.'"
     },
     {
       "id": "tue3-tf-3",
@@ -71,31 +71,31 @@
       "id": "tue3-mc-1",
       "reading": "tuesday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 3",
+      "statement": "¿Cuáles son las tres ideas fundamentales sobre las que se fundamenta el uso de la convolución en redes neuronales en lugar de la multiplicación matricial estándar?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Interacciones escasas, compartición de parámetros y representaciones equivariantes)",
+        "Opción B (Invariancia a la escala, descenso de gradiente estocástico y normalización por lotes)",
+        "Opción C (Convolución valid, convolución same y convolución full)",
+        "Opción D (Células simples, células complejas y células abuela)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción A (Interacciones escasas, compartición de parámetros y representaciones equivariantes)",
+      "difficulty_level": 2,
+      "source_quote": "'Convolution leverages three important ideas that can help improve a machine learning system: sparse interactions, parameter sharing and equivariant'"
     },
     {
       "id": "tue3-mc-2",
       "reading": "tuesday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 3",
+      "statement": "¿Qué propiedad matemática posee una función f respecto a una transformación g si se cumple la relación formal f(g(x)) = g(f(x))?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Invariancia)",
+        "Opción B (Equivariancia)",
+        "Opción C (Conmutatividad)",
+        "Opción D (Separabilidad)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción B (Equivariancia)",
+      "difficulty_level": 3,
+      "source_quote": "'In the case of convolution, the particular form of parameter sharing causes the layer to have a property called equivariance to translation.'"
     },
     {
       "id": "tue3-mc-3",
@@ -146,27 +146,27 @@
       "id": "thu3-tf-1",
       "reading": "thursday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 3",
+      "statement": "La red de Grossberg se inspiró en el funcionamiento del sistema visual de los mamíferos",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
       "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "source_quote": "'In this section, we will present the Grossberg network [Grossberg, 1998]. This network was inspired by the operation of the mammalian visual system.'"
     },
     {
       "id": "thu3-tf-2",
       "reading": "thursday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 3",
+      "statement": "En la red competitiva de dos capas de Grossberg, la Capa 1 representa la corteza visual y utiliza conexiones de retroalimentación para almacenar patrones cuando la entrada externa es removida.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 5,
+      "source_quote": "'Layer 1 of the Grossberg network receives external inputs and normalizes the intensity of the input pattern (Figure 5.11).'"
     },
     {
       "id": "thu3-tf-3",
@@ -211,31 +211,31 @@
       "id": "thu3-mc-1",
       "reading": "thursday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 3",
+      "statement": "¿En qué año fue inventada la red neuronal artificial recurrente conocida como la Red de Hopfield y por quién?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (John Hopfield en 1982)",
+        "Opción B (Stephen Grossberg en 1998)",
+        "Opción C (Leon Chua en 1988)",
+        "Opción D (Marvin Minsky en 1969)"
       ],
-      "correct_option": "Opción A (edítenla)",
+      "correct_option": "Opción A (John Hopfield en 1982)",
       "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "source_quote": "'The Hopfield network is a form of recurrent artificial neural network invented by John Hopfield in 1982.'"
     },
     {
       "id": "thu3-mc-2",
       "reading": "thursday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 3",
+      "statement": "¿Cuál es el modelo básico que constituye el núcleo del modelo neuronal shunting de Grossberg?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (La neurona de McCulloch-Pitts)",
+        "Opción B (La red neuronal celular)",
+        "Opción C (El perceptrón multicapa)",
+        "Opción D (El integrador con pérdida)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción D (El integrador con pérdida)",
+      "difficulty_level": 4,
+      "source_quote": "'Before we introduce the Grossberg network, we will begin by looking at some of the building blocks that make up the network [Hagan, Demuth, and Beale, 1996]. The first building block is the leaky integrator, which is shown in Figure 5.8.'"
     },
     {
       "id": "thu3-mc-3",
@@ -286,27 +286,27 @@
       "id": "tue4-tf-1",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 4",
+      "statement": "La arquitectura del Transformer prescinde por completo de la recurrencia y de las convoluciones, basándose únicamente en mecanismos de atención para dibujar dependencias globales entre la entrada y la salida.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 2,
+      "source_quote": "'We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.'"
     },
     {
       "id": "tue4-tf-2",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 4",
+      "statement": "Reemplazar las codificaciones posicionales sinusoidales fijas por codificaciones posicionales aprendidas produjo una mejora drástica en el puntaje BLEU del modelo base.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 7,
+      "source_quote": "'We also experimented with using learned positional embeddings [8] instead, and found that the two versions produced nearly identical results.'"
     },
     {
       "id": "tue4-tf-3",
@@ -351,31 +351,31 @@
       "id": "tue4-mc-1",
       "reading": "tuesday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 4",
+      "statement": "¿Cuántas capas idénticas apiladas forman el codificador y el decodificador en la arquitectura estándar del Transformer?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (N = 4)",
+        "Opción B (N = 6)",
+        "Opción C (N = 8)",
+        "Opción D (N = 12)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción B (N = 6)",
+      "difficulty_level": 2,
+      "source_quote": "'The encoder is composed of a stack of N = 6 identical layers. The decoder is also composed of a stack of N = 6 identical layers.'"
     },
     {
       "id": "tue4-mc-2",
       "reading": "tuesday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 4",
+      "statement": "En la atención de múltiples cabezas del modelo base, utilizando una dimensión de modelo d = 512 y h = 8 cabezas paralelas, ¿cuál es la dimensión dk = dv proyectada para cada cabeza?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (64)",
+        "Opción B (128)",
+        "Opción C (256)",
+        "Opción D (512)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción A (64)",
+      "difficulty_level": 4,
+      "source_quote": "'In this work we employ h = 8 parallel attention layers, or heads. For each of these we use dk = dv = dmodel/h = 64.'"
     },
     {
       "id": "tue4-mc-3",
@@ -426,27 +426,27 @@
       "id": "thu4-tf-1",
       "reading": "thursday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 4",
+      "statement": "Un agente omnisciente y un agente racional son conceptualmente lo mismo, ya que ambos garantizan obtener siempre el desempeño perfecto real en cualquier entorno.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 3,
+      "source_quote": "'An omniscient agent knows the actual outcome of its actions and can act accordingly; but omniscience is impossible in reality.'"
     },
     {
       "id": "thu4-tf-2",
       "reading": "thursday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 4",
+      "statement": "Un entorno en el que la decisión actual del agente no afecta a las decisiones futuras (por ejemplo, clasificar partes defectuosas en una línea de ensamblaje) se clasifica como un entorno secuencial.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 4,
+      "source_quote": "'In an episodic task environment, the agent's experience is divided into atomic episodes. In each episode the agent receives a percept and then performs a single action. Crucially, the next episode does not depend on the actions taken in previous episodes.'"
     },
     {
       "id": "thu4-tf-3",
@@ -491,31 +491,31 @@
       "id": "thu4-mc-1",
       "reading": "thursday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 4",
+      "statement": "En el marco PEAS para la especificación del entorno de trabajo de un agente inteligente, ¿a qué corresponden las siglas del acrónimo?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Processing, Execution, Action, Sensors)",
+        "Opción B (Performance, Environment, Actuators, Sensors)",
+        "Opción C (Perception, Environment, Actuators, Strategy)",
+        "Opción D (Program, Environment, Agents, Solutions)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción B (Performance, Environment, Actuators, Sensors)",
+      "difficulty_level": 2,
+      "source_quote": "'For the acronymically minded, we call this the PEAS (Performance, Environment, Actuators, Sensors) description.'"
     },
     {
       "id": "thu4-mc-2",
       "reading": "thursday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 4",
+      "statement": "¿Qué tipo de estructura de agente utiliza un estado interno para realizar un seguimiento de los aspectos no observables del mundo y actualizarlo conforme llegan nuevas percepciones?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Agente de reflejo simple)",
+        "Opción B (Agente basado en tablas)",
+        "Opción C (Agente de reflejo basado en modelos)",
+        "Opción D (Agente reactivo puro)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción C (Agente de reflejo basado en modelos)",
+      "difficulty_level": 4,
+      "source_quote": "'Figure 2.12. A model-based reflex agent. It keeps track of the current state of the world, using an internal model. It then chooses an action in the same way as the reflex agent.'"
     },
     {
       "id": "thu4-mc-3",
@@ -566,27 +566,27 @@
       "id": "tue5-tf-1",
       "reading": "tuesday-week-5",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 5",
+      "statement": "El método SARSA es considerado un algoritmo fuera de política (off-policy)",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 6,
+      "source_quote": "'Because Q-learning uses the best Q-value, it pays no attention to the actual policy being followed-it is an off-policy learning algorithm, whereas SARSA is an on-policy algorithm.'"
     },
     {
       "id": "tue5-tf-2",
       "reading": "tuesday-week-5",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 5",
+      "statement": "Utilizar la aproximación de funciones permite a un agente de aprendizaje por refuerzo generalizar la utilidad hacia estados que no ha visitado previamente.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 4,
+      "source_quote": "'Function approximation makes it practical to represent utility functions for very large state spaces, but that is not its principal benefit. The compression achieved by a function approximator allows the learning agent to generalize from states it has visited to states it has not visited.'"
     },
     {
       "id": "tue5-tf-3",
@@ -631,31 +631,31 @@
       "id": "tue5-mc-1",
       "reading": "tuesday-week-5",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 5",
+      "statement": "¿Cuál es el dilema fundamental que debe resolver un agente de aprendizaje por refuerzo activo durante su interacción con el entorno?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (La elección entre representación mediante tablas o redes neuronales profundas)",
+        "Opción B (El balance entre el número de estados terminales y la tasa de descuento gamma)",
+        "Opción C (La selección entre modelos deterministas y modelos continuos de tiempo)",
+        "Opción D (El compromiso entre la explotación de acciones conocidas y la exploración de acciones no probadas)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción D (El compromiso entre la explotación de acciones conocidas y la exploración de acciones no probadas)",
+      "difficulty_level": 3,
+      "source_quote": "'An agent therefore must make a tradeoff between exploitation to maximize its reward-as reflected in its current utility estimates-and exploration to maximize its long-term well-being'"
     },
     {
       "id": "tue5-mc-2",
       "reading": "tuesday-week-5",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 5",
+      "statement": "¿Qué nombre recibe la técnica que introduce pseudorecompensas adicionales para orientar al agente hacia el objetivo final sin alterar la política óptima subyacente del MDP?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Búsqueda de políticas)",
+        "Opción B (Barrido priorizado)",
+        "Opción C (Moldeado de recompensas)",
+        "Opción D (Aprendizaje por aprendizaje guiado)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción C (Moldeado de recompensas)",
+      "difficulty_level": 6,
+      "source_quote": "'One common method, used originally in animal training, is called reward shaping. This involves supplying the agent with additional rewards, called pseudorewards, for making progress.'"
     },
     {
       "id": "tue5-mc-3",
