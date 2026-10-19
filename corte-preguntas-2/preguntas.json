@@ -32,40 +32,40 @@
       "id": "tue3-tf-3",
       "reading": "tuesday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 3",
+      "statement": "La operación de convolución estándar es naturalmente equivariante tanto a las rotaciones como a los cambios de escala de una imagen.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 4,
+      "source_quote": "Convolution is not naturally equivariant to some other transformations, such as changes in the scale or rotation of an image."
     },
     {
       "id": "tue3-tf-4",
       "reading": "tuesday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 3",
+      "statement": "Cuando un núcleo d-dimensional es separable, la convolución se puede descomponer en d convoluciones unidimensionales, reduciendo el costo computacional de O(w^d) a O(w * d).",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 8,
+      "source_quote": "If the kernel is w elements wide in each dimension, then naive multidimensional convolution requires O(w^d) runtime and parameter storage space, while separable convolution requires O(w*d) runtime and parameter storage space."
     },
     {
       "id": "tue3-tf-5",
       "reading": "tuesday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 3",
+      "statement": "En el modo de convolución valid, se agrega relleno con ceros suficiente para garantizar que la salida conserve exactamente las mismas dimensiones espaciales que la entrada.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 2,
+      "source_quote": "One is the extreme case in which no zero padding is used whatsoever, and the convolution kernel is allowed to visit only positions where the entire kernel is contained entirely within the image. In MATLAB terminology, this is called valid convolution."
     },
     {
       "id": "tue3-mc-1",
@@ -101,46 +101,46 @@
       "id": "tue3-mc-3",
       "reading": "tuesday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 3",
+      "statement": "¿Cuáles son las tres etapas sucesivas que componen una capa convolucional típica según la descripción formal del texto?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Normalización por lotes, convolución lineal y activación sigmoide)",
+        "Opción B (Etapa recurrente, etapa de atención y etapa de compresión)",
+        "Opción C (Etapa de convolución afín, etapa detectora no lineal y etapa de pooling)",
+        "Opción D (Transformada de Fourier, multiplicación punto a punto e inversa de Fourier)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción C (Etapa de convolución afín, etapa detectora no lineal y etapa de pooling)",
+      "difficulty_level": 5,
+      "source_quote": "In the first stage, the layer performs several convolutions in parallel to produce a set of linear activations. In the second stage, each linear activation is run through a nonlinear activation function, such as the rectified linear activation function. This stage is sometimes called the detector stage. In the third stage, we use a pooling function to modify the output of the layer further."
     },
     {
       "id": "tue3-mc-4",
       "reading": "tuesday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 3",
+      "statement": "Al interpretar una red convolucional como una red totalmente conectada con un prior infinitamente fuerte, ¿qué condición impone dicho prior sobre sus pesos?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Que los pesos deben seguir una distribución gaussiana no informativa de varianza infinita)",
+        "Opción B (Que todos los pesos deben decaer exponencialmente hacia cero en cada iteración del optimizador)",
+        "Opción C (Que cada unidad oculta debe conectarse de forma obligatoria con la totalidad del mapa de entrada)",
+        "Opción D (Que los pesos de una unidad oculta deben ser idénticos a los de su vecina pero desplazados, y ser cero fuera de su campo receptivo)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción D (Que los pesos de una unidad oculta deben ser idénticos a los de su vecina pero desplazados, y ser cero fuera de su campo receptivo)",
+      "difficulty_level": 7,
+      "source_quote": "This infinitely strong prior says that the weights for one hidden unit must be identical to the weights of its neighbor but shifted in space. The prior also says that the weights must be zero, except for in the small, spatially contiguous receptive field assigned to that hidden unit."
     },
     {
       "id": "tue3-mc-5",
       "reading": "tuesday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 3",
+      "statement": "¿Qué cálculo realiza la operación de max pooling sobre una región o vecindad rectangular?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Calcula la suma acumulada de todas las activaciones)",
+        "Opción B (Calcula el promedio aritmético de las entradas)",
+        "Opción C (Reporta la salida máxima dentro del vecindario)",
+        "Opción D (Calcula la desviación estándar de los valores vecinos)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción C (Reporta la salida máxima dentro del vecindario)",
+      "difficulty_level": 2,
+      "source_quote": "For example, the max pooling (Zhou and Chellappa, 1988) operation reports the maximum output within a rectangular neighborhood."
     },
     {
       "id": "thu3-tf-1",
@@ -172,40 +172,40 @@
       "id": "thu3-tf-3",
       "reading": "thursday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 3",
+      "statement": "En el modelo clásico de la red de Hopfield no existe auto-retroalimentación en las neuronas, lo que significa que los pesos de la diagonal principal son iguales a cero (w_ii = 0).",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 3,
+      "source_quote": "Additionally, wji = 0 when i = j, which in fact means that the self-feedback does not exist in the model."
     },
     {
       "id": "thu3-tf-4",
       "reading": "thursday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 3",
+      "statement": "En una red neuronal celular (Cellular Neural Network), cada célula del circuito está conectada globalmente con todas las demás células de la cuadrícula mediante enlaces directos.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 4,
+      "source_quote": "The structure of cellular neural networks is similar to that found in cellular automata; namely, any cell in a cellular neural network is connected only to its neighbor cells."
     },
     {
       "id": "thu3-tf-5",
       "reading": "thursday-week-3",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 3",
+      "statement": "El modelo continuo de la red neuronal de Hopfield puede considerarse como un caso especial del teorema de estabilidad de Cohen-Grossberg.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 7,
+      "source_quote": "This demonstrates that the Hopfield model can be seen as a special case of the Cohen-Grossberg theorem [Haykin, 2009]."
     },
     {
       "id": "thu3-mc-1",
@@ -241,46 +241,46 @@
       "id": "thu3-mc-3",
       "reading": "thursday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 3",
+      "statement": "Según Stephen Grossberg, ¿cuál es el proceso neurobiológico compensatorio encargado de completar los bordes y límites discontinuos en una imagen percibida?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Relleno de características o featural filling-in)",
+        "Opción B (Segmentación emergente o emergent segmentation)",
+        "Opción C (Descuento del iluminante)",
+        "Opción D (Constancia de brillo adaptativo)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción B (Segmentación emergente o emergent segmentation)",
+      "difficulty_level": 4,
+      "source_quote": "The first, which he calls emergent segmentation, completes missing boundaries. The second, which he calls featural filling-in, fills in the color and brightness inside the resulting boundaries."
     },
     {
       "id": "thu3-mc-4",
       "reading": "thursday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 3",
+      "statement": "¿Qué representan los pesos adaptativos W² en la red de Grossberg?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (La memoria a largo plazo (LTM), porque guardan los patrones que la red reconoce)",
+        "Opción B (La memoria a corto plazo (STM), porque se borran apenas desaparece el estímulo)",
+        "Opción C (El sesgo de activación de las neuronas de la primera capa)",
+        "Opción D (La velocidad a la que se pierde la señal en el integrador)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción A (La memoria a largo plazo (LTM), porque guardan los patrones que la red reconoce)",
+      "difficulty_level": 4,
+      "source_quote": "The third component of the Grossberg network is the learning law for the adaptive weights W2. Grossberg calls these adaptive weights the long-term memory (LTM). This is because the rows of W2 will represent patterns that have been stored and that the network will be able to recognize."
     },
     {
       "id": "thu3-mc-5",
       "reading": "thursday-week-3",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 3",
+      "statement": "¿Por qué la red continua de Hopfield es asintóticamente estable según el análisis de Lyapunov?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Porque la función de energía V disminuye de forma monótona con el tiempo hasta llegar a un punto fijo)",
+        "Opción B (Porque la matriz de pesos no tiene valores negativos)",
+        "Opción C (Porque las resistencias y capacitores eliminan por completo el ruido del circuito)",
+        "Opción D (Porque las neuronas se actualizan de forma secuencial y no en paralelo)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción A (Porque la función de energía V disminuye de forma monótona con el tiempo hasta llegar a un punto fijo)",
+      "difficulty_level": 8,
+      "source_quote": "which reveals that the Lyapunov function V of a Hopfield network is a monotonically decreasing function of time. Consequently, the Hopfield network is asymptotically stable in the Lyapunov sense."
     },
     {
       "id": "tue4-tf-1",
@@ -312,40 +312,40 @@
       "id": "tue4-tf-3",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 4",
+      "statement": "En el bloque decodificador del Transformer, la subcapa de autoatención enmascarada permite que cada posición atienda a todas las posiciones posteriores para anticipar los tokens futuros de la secuencia.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 5,
+      "source_quote": "We also modify the self-attention sub-layer in the decoder stack to prevent positions from attending to subsequent positions. This masking, combined with fact that the output embeddings are offset by one position, ensures that the predictions for position i can depend only on the known outputs at positions less than i."
     },
     {
       "id": "tue4-tf-4",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 4",
+      "statement": "En la subcapa de red feed-forward puntual (FFN) del Transformer, la operación consta de dos transformaciones lineales con una activación ReLU intermedia, lo cual equivale a dos convoluciones con tamaño de núcleo 1.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 8,
+      "source_quote": "This consists of two linear transformations with a ReLU activation in between. While the linear transformations are the same across different positions, they use different parameters from layer to layer. Another way of describing this is as two convolutions with kernel size 1."
     },
     {
       "id": "tue4-tf-5",
       "reading": "tuesday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 4",
+      "statement": "El uso de suavizado de etiquetas (label smoothing) durante el entrenamiento del Transformer mejora la perplejidad del modelo al forzarlo a generar predicciones con mayor certeza absoluta.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 7,
+      "source_quote": "During training, we employed label smoothing of value \u03f5ls = 0.1 [30]. This hurts perplexity, as the model learns to be more unsure, but improves accuracy and BLEU score."
     },
     {
       "id": "tue4-mc-1",
