@@ -381,46 +381,46 @@
       "id": "tue4-mc-3",
       "reading": "tuesday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 4",
+      "statement": "¿Cuántas operaciones secuenciales necesita una capa de self-attention para conectar todas las posiciones de una secuencia, comparada con una capa recurrente?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (O(n) para self-attention y O(1) para la recurrente)",
+        "Opción B (Un número constante (O(1)) para self-attention y O(n) para la recurrente)",
+        "Opción C (O(log n) para ambas)",
+        "Opción D (O(n²) para self-attention y O(n) para la recurrente)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción B (Un número constante (O(1)) para self-attention y O(n) para la recurrente)",
+      "difficulty_level": 5,
+      "source_quote": "'As noted in Table 1, a self-attention layer connects all positions with a constant number of sequentially executed operations, whereas a recurrent layer requires O(n) sequential operations.'"
     },
     {
       "id": "tue4-mc-4",
       "reading": "tuesday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 4",
+      "statement": "¿Por qué la Scaled Dot-Product Attention escala los productos punto por 1/√dk?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Para reducir el número de parámetros del modelo)",
+        "Opción B (Para que la atención aditiva y la de producto punto tengan la misma complejidad teórica)",
+        "Opción C (Porque, con dk grande, los productos punto crecen mucho y empujan al softmax a regiones con gradientes extremadamente pequeños)",
+        "Opción D (Para poder calcular la atención en paralelo sobre todas las posiciones)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción C (Porque, con dk grande, los productos punto crecen mucho y empujan al softmax a regiones con gradientes extremadamente pequeños)",
+      "difficulty_level": 6,
+      "source_quote": "'We suspect that for large values of dk, the dot products grow large in magnitude, pushing the softmax function into regions where it has extremely small gradients.'"
     },
     {
       "id": "tue4-mc-5",
       "reading": "tuesday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 4",
+      "statement": "¿Qué ventaja tiene la codificación posicional sinusoidal frente a los positional embeddings aprendidos?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Entrena más rápido)",
+        "Opción B (Obtiene un BLEU claramente superior)",
+        "Opción C (Elimina la necesidad de usar máscaras en el decoder)",
+        "Opción D (Puede permitir que el modelo extrapole a secuencias más largas que las vistas en el entrenamiento)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción D (Puede permitir que el modelo extrapole a secuencias más largas que las vistas en el entrenamiento)",
+      "difficulty_level": 5,
+      "source_quote": "'We chose the sinusoidal version because it may allow the model to extrapolate to sequence lengths longer than the ones encountered during training.'"
     },
     {
       "id": "thu4-tf-1",
@@ -452,40 +452,40 @@
       "id": "thu4-tf-3",
       "reading": "thursday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 4",
+      "statement": "La búsqueda de profundización iterativa combina los beneficios de la búsqueda en profundidad y la búsqueda en anchura, con requisitos de memoria modestos de O(bd).",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 5,
+      "source_quote": "'Iterative deepening combines the benefits of depth-first and breadth-first search. Like depth-first search, its memory requirements are modest: O(bd) to be precise.'"
     },
     {
       "id": "thu4-tf-4",
       "reading": "thursday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 4",
+      "statement": "El ajedrez jugado con reloj se clasifica como un entorno semidinámico.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 4,
+      "source_quote": "'If the environment itself does not change with the passage of time but the agent’s performance score does, then we say the environment is semidynamic. Taxi driving is clearly dynamic: the other cars and the taxi itself keep moving while the driving algorithm dithers about what to do next. Chess, when played with a clock, is semidynamic.'"
     },
     {
       "id": "thu4-tf-5",
       "reading": "thursday-week-4",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 4",
+      "statement": "Toda heurística admisible es también consistente, por lo que la admisibilidad es un requisito más estricto que la consistencia.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 7,
+      "source_quote": "'It is fairly easy to show (Exercise 3.29) that every consistent heuristic is also admissible. Consistency is therefore a stricter requirement than admissibility, but one has to work quite hard to concoct heuristics that are admissible but not consistent.'"
     },
     {
       "id": "thu4-mc-1",
@@ -521,46 +521,46 @@
       "id": "thu4-mc-3",
       "reading": "thursday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 4",
+      "statement": "En un agente que aprende, ¿qué componente se encarga de sugerir acciones que lleven a experiencias nuevas e informativas?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (El elemento de aprendizaje)",
+        "Opción B (El elemento de desempeño)",
+        "Opción C (El crítico)",
+        "Opción D (El generador de problemas)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción D (El generador de problemas)",
+      "difficulty_level": 5,
+      "source_quote": "'The last component of the learning agent is the problem generator. It is responsible for suggesting actions that will lead to new and informative experiences.'"
     },
     {
       "id": "thu4-mc-4",
       "reading": "thursday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 4",
+      "statement": "En la búsqueda con profundidad limitada, ¿qué problema aparece si se elige un límite ℓ menor que d (la profundidad de la meta más superficial)?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (La búsqueda deja de ser óptima pero sigue siendo completa)",
+        "Opción B (La complejidad espacial pasa a ser exponencial)",
+        "Opción C (Se introduce una fuente adicional de incompletitud, porque la meta queda más allá del límite)",
+        "Opción D (El algoritmo entra en un bucle infinito)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción C (Se introduce una fuente adicional de incompletitud, porque la meta queda más allá del límite)",
+      "difficulty_level": 6,
+      "source_quote": "'The depth limit solves the infinite-path problem. Unfortunately, it also introduces an additional source of incompleteness if we choose ℓ < d, that is, the shallowest goal is beyond the depth limit.'"
     },
     {
       "id": "thu4-mc-5",
       "reading": "thursday-week-4",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 4",
+      "statement": "¿En qué situación la búsqueda de costo uniforme (uniform-cost search) puede quedar atrapada en un bucle infinito?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Cuando el factor de ramificación es infinito)",
+        "Opción B (Cuando la heurística no es admisible)",
+        "Opción C (Cuando existe un camino con una secuencia infinita de acciones de costo cero)",
+        "Opción D (Cuando todas las acciones tienen el mismo costo)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción C (Cuando existe un camino con una secuencia infinita de acciones de costo cero)",
+      "difficulty_level": 7,
+      "source_quote": "'Uniform-cost search does not care about the number of steps a path has, but only about their total cost. Therefore, it will get stuck in an infinite loop if there is a path with an infinite sequence of zero-cost actions'"
     },
     {
       "id": "tue5-tf-1",
@@ -592,40 +592,40 @@
       "id": "tue5-tf-3",
       "reading": "tuesday-week-5",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 5",
+      "statement": "En la búsqueda de políticas, la representación softmax de una política estocástica siempre da una función diferenciable de los parámetros θ.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 6,
+      "source_quote": "'Softmax becomes nearly deterministic if one action is much better than the others, but it always gives a differentiable function of θ'"
     },
     {
       "id": "tue5-tf-4",
       "reading": "tuesday-week-5",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 5",
+      "statement": "Un agente TD que aprende una función Q no necesita un modelo de transición, ni para aprender ni para seleccionar acciones.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 4,
+      "source_quote": "'Q-functions may seem like just another way of storing utility information, but they have a very important property: a TD agent that learns a Q-function does not need a model of the form P(s′ | s, a), either for learning or for action selection. For this reason, Q-learning is called a model-free method.'"
     },
     {
       "id": "tue5-tf-5",
       "reading": "tuesday-week-5",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 5",
+      "statement": "La estimación directa de utilidad aprovecha que las utilidades de los estados no son independientes entre sí.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 6,
+      "source_quote": "'Unfortunately, it misses a very important source of information, namely, the fact that the utilities of states are not independent!'"
     },
     {
       "id": "tue5-mc-1",
@@ -661,46 +661,46 @@
       "id": "tue5-mc-3",
       "reading": "tuesday-week-5",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 5",
+      "statement": "¿Por qué el agente greedy, que siempre elige la acción óptima según su modelo aprendido, puede terminar con una política subóptima?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Porque su tasa de aprendizaje es demasiado alta)",
+        "Opción B (Porque el modelo aprendido no es igual al entorno real, y lo óptimo en el modelo puede ser subóptimo en el entorno real)",
+        "Opción C (Porque no recibe recompensas hasta el estado terminal)",
+        "Opción D (Porque usa una función de exploración demasiado optimista)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción B (Porque el modelo aprendido no es igual al entorno real, y lo óptimo en el modelo puede ser subóptimo en el entorno real)",
+      "difficulty_level": 5,
+      "source_quote": "'How can it be that choosing the optimal action leads to suboptimal results? The answer is that the learned model is not the same as the true environment; what is optimal in the learned model can therefore be suboptimal in the true environment.'"
     },
     {
       "id": "tue5-mc-4",
       "reading": "tuesday-week-5",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 5",
+      "statement": "¿Cuál es la diferencia más importante entre el aprendizaje por diferencias temporales (TD) y la programación dinámica adaptativa (ADP)?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (TD necesita un modelo de transición y ADP no)",
+        "Opción B (ADP solo funciona con políticas estocásticas)",
+        "Opción C (TD converge siempre más rápido que ADP)",
+        "Opción D (TD hace un solo ajuste por transición observada, mientras que ADP hace tantos como necesite para restaurar la consistencia entre U y el modelo P)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción D (TD hace un solo ajuste por transición observada, mientras que ADP hace tantos como necesite para restaurar la consistencia entre U y el modelo P)",
+      "difficulty_level": 7,
+      "source_quote": "'A more important difference is that whereas TD makes a single adjustment per observed transition, ADP makes as many as it needs to restore consistency between the utility estimates U and the environment model P.'"
     },
     {
       "id": "tue5-mc-5",
       "reading": "tuesday-week-5",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 5",
+      "statement": "¿Por qué un esquema GLIE (greedy in the limit of infinite exploration) debe probar cada acción en cada estado un número ilimitado de veces?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Para evitar una probabilidad finita de pasar por alto una acción óptima debido a una serie de resultados inusualmente mala)",
+        "Opción B (Para que el agente nunca se vuelva greedy)",
+        "Opción C (Para reducir el costo computacional de cada iteración)",
+        "Opción D (Para no tener que aprender el modelo de transición)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción A (Para evitar una probabilidad finita de pasar por alto una acción óptima debido a una serie de resultados inusualmente mala)",
+      "difficulty_level": 8,
+      "source_quote": "'A GLIE scheme must try each action in each state an unbounded number of times to avoid having a finite probability that an optimal action is missed because of an unusually bad series of outcomes.'"
     }
   ]
 }
