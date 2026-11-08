@@ -6,27 +6,27 @@
       "id": "tue7-tf-1",
       "reading": "tuesday-week-7",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 7",
+      "statement": "En la formalización del proceso evolutivo, la función f1 recibe el nombre de epigénesis.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 2,
+      "source_quote": "The function f1 is called epigenesis."
     },
     {
       "id": "tue7-tf-2",
       "reading": "tuesday-week-7",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 7",
+      "statement": "La función de selección natural (f2) opera evaluando directamente las codificaciones del genotipo g1, independientemente de las expresiones fenotípicas del organismo.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 4,
+      "source_quote": "As natural selection operates only on the phenotypic expressions of the genotype [Mayr, 1960; Hartl and Clark, 1989; Reed and Bryant, 2004], the underlying coding g1 is not involved in function f2."
     },
     {
       "id": "tue7-tf-3",
@@ -71,31 +71,31 @@
       "id": "tue7-mc-1",
       "reading": "tuesday-week-7",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 7",
+      "statement": "¿Cuáles son los dos componentes o fuerzas fundamentales cuya interacción define la esencia del proceso evolutivo?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Recombinación e Inversión)",
+        "Opción B (Variación y Selección)",
+        "Opción C (Epigénesis y Mutación)",
+        "Opción D (Adaptación y Migración)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción B (Variación y Selección)",
+      "difficulty_level": 2,
+      "source_quote": "However, the essence of evolution—variation and selection—can be illustrated conveniently and cogently by way of a series of mapping functions that connect genetics with behavior."
     },
     {
       "id": "tue7-mc-2",
       "reading": "tuesday-week-7",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 7",
+      "statement": "Al comparar la búsqueda evolutiva con la búsqueda exhaustiva en espacios enormes (>10^100), ¿con qué constante del universo observable comparan los autores la cifra de 10^80 soluciones evaluadas?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (El número estimado de estrellas en el universo observable)",
+        "Opción B (El número estimado de protones en el universo observable)",
+        "Opción C (El número de fotones emitidos en el fondo cósmico de microondas)",
+        "Opción D (El número de segundos desde el origen del sistema solar)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción B (El número estimado de protones en el universo observable)",
+      "difficulty_level": 6,
+      "source_quote": "The value 10^80 happens to correspond to estimates of the number of protons in the observable universe."
     },
     {
       "id": "tue7-mc-3",
@@ -146,27 +146,27 @@
       "id": "thu7-tf-1",
       "reading": "thursday-week-7",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 7",
+      "statement": "En el esquema de selección (conocido como comma selection), los padres sobreviven junto con la descendencia para competir por formar la siguiente generación",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 3,
+      "source_quote": "Thus, in 'plus' selection, all parents and offspring compete to be parents for the next generation, whereas in 'comma' selection, the parents die each generation and a surplus of offspring must be created."
     },
     {
       "id": "thu7-tf-2",
       "reading": "thursday-week-7",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 7",
+      "statement": "La distribución de Cauchy posee colas más pesadas que la distribución Gaussiana, lo que le otorga una mayor probabilidad de realizar mutaciones de gran amplitud en parámetros continuos y ayuda a escapar de óptimos locales.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 5,
+      "source_quote": "The Cauchy distribution has 'fatter tails' than a corresponding Gaussian distribution, thus the probability of mutating a real-valued parameter to a greater extent is markedly greater. This can be helpful for escaping from locally optimal solutions."
     },
     {
       "id": "thu7-tf-3",
@@ -211,31 +211,31 @@
       "id": "thu7-mc-1",
       "reading": "thursday-week-7",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 7",
+      "statement": "¿En qué consiste el operador de variación conocido como headless chicken crossover?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (En cruzar a todos los padres de la población con el individuo de peor aptitud para preservar la diversidad.)",
+        "Opción B (En tomar un padre existente y cruzarlo con una solución totalmente aleatoria generada desde cero, en lugar de cruzarlo con otro padre de la población.)",
+        "Opción C (En eliminar aleatoriamente la mitad de las variables del cromosoma antes de aplicar un cruzamiento de un punto.)",
+        "Opción D (En realizar un intercambio directo de subárboles entre expresiones simbólicas sin verificar su sintaxis.)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción B (En tomar un padre existente y cruzarlo con una solución totalmente aleatoria generada desde cero, en lugar de cruzarlo con otro padre de la población.)",
+      "difficulty_level": 6,
+      "source_quote": "The procedure takes an existing parent and instead of crossing it over with another existing parent, it crosses the parent with a completely random solution. At this point, the mechanism of crossover is still present but the effect of the mechanism is purely a large mutation..."
     },
     {
       "id": "thu7-mc-2",
       "reading": "thursday-week-7",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 7",
+      "statement": "¿Cuál es la propiedad del operador de inversión al aplicarse sobre una cadena de variables numéricas independientemente evaluadas?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Duplica el valor numérico de las variables del segmento invertido.)",
+        "Opción B (Cambia el signo algebraico de las componentes seleccionadas.)",
+        "Opción C (Altera la posición indexada de los elementos en la cadena sin modificar sus valores numéricos individuales ni la evaluación del objetivo.)",
+        "Opción D (Transforma la codificación binaria estándar en código de Gray.)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción C (Altera la posición indexada de los elementos en la cadena sin modificar sus valores numéricos individuales ni la evaluación del objetivo.)",
+      "difficulty_level": 7,
+      "source_quote": "As proposed originally [Fraser, 1968; Holland, 1975], this operator inverted the index position of elements in a solution string... Inversion here did not change the values of x1, ..., x5, it only changed the position of these values in the solution string."
     },
     {
       "id": "thu7-mc-3",
@@ -286,27 +286,27 @@
       "id": "tue8-tf-1",
       "reading": "tuesday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del martes de la semana 8",
+      "statement": "En el modelado matemático de sistemas, el principio de parsimonia o Navaja de Occam establece que si un modelo es más complejo de lo necesario para predecir un fenómeno, se debe preferir una explicación más simple.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 2,
+      "source_quote": "A mathematical model needs to be sufficiently complicated to make useful predictions about a system. If it is more complicated than necessary, a simpler explanation should be favored."
     },
     {
       "id": "tue8-tf-2",
       "reading": "tuesday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del martes de la semana 8",
+      "statement": "El criterio habitual de error cuadrático medio penaliza los errores basándose únicamente en su magnitud al cuadrado, tratando por igual a un error de Tipo I (falsa alarma) y a un error de Tipo II (falso negativo).",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 4,
+      "source_quote": "Furthermore, using the squared error penalizes incorrect predictions that are too high or too low, or of type I or type II, based solely on their magnitude. Again, this is rarely appropriate in real-world settings."
     },
     {
       "id": "tue8-tf-3",
@@ -351,31 +351,31 @@
       "id": "tue8-mc-1",
       "reading": "tuesday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del martes de la semana 8",
+      "statement": "En el estudio de Fogel et al. (1998) para clasificar mamografías sospechosas utilizando redes neuronales evolucionadas, ¿qué procedimiento de validación se empleó para evaluar los datos retenidos y evitar el sobreajuste?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (División fija 50/50 entre entrenamiento y prueba.)",
+        "Opción B (Validación cruzada dejando uno fuera.)",
+        "Opción C (Re-muestreo por Bootstrapping.)",
+        "Opción D (Validación por k-folds con k=2.)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción B (Validación cruzada dejando uno fuera.)",
+      "difficulty_level": 5,
+      "source_quote": "Rather than use a typical train-test-validate approach, leave-one-out cross-validation was employed. This procedure removes the first data example from the available data and trains on the remainder. It then employs the best evolved neural network to predict the case for the held-out data."
     },
     {
       "id": "tue8-mc-2",
       "reading": "tuesday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del martes de la semana 8",
+      "statement": "En el problema del control del carro y polos analizado por Wieland (1991a, 1991b), ¿cuándo resulta ser más complejo el desafío de mantener en equilibrio un sistema de múltiples polos?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Cuando los polos tienen masas idénticas a la del carro.)",
+        "Opción B (Cuando el riel no presenta fricción.)",
+        "Opción C (Cuando se aplican fuerzas mayores a 10 N.)",
+        "Opción D (Cuando los polos son aproximadamente de la misma longitud.)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción D (Cuando los polos son aproximadamente de la misma longitud.)",
+      "difficulty_level": 7,
+      "source_quote": "The challenge of a multiple-pole system is greatest when the poles are about the same length. When one is much smaller than the other, the 'region of controllability' is much larger."
     },
     {
       "id": "tue8-mc-3",
@@ -426,27 +426,27 @@
       "id": "thu8-tf-1",
       "reading": "thursday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #1 sobre la lectura del jueves de la semana 8",
+      "statement": "En el algoritmo de optimización por enjambre de partículas, cada partícula ajusta su velocidad considerando tanto su propia memoria histórica como la mejor posición alcanzada por las partículas en su vecindario.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 3,
+      "source_quote": "Each particle is given a memory. It remembers the location that has yielded the best result from the objective function. Each particle also has knowledge about the results of other particles in a neighborhood... Each particle's new velocity is a function of (i) its current velocity, (ii) the vector that points to the particle's own best location, and (iii) the vector that points to the best location of the particles in its neighborhood."
     },
     {
       "id": "thu8-tf-2",
       "reading": "thursday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #2 sobre la lectura del jueves de la semana 8",
+      "statement": "En los experimentos pioneros de computación evolutiva en hardware llevados a cabo por Rechenberg (1973), se utilizó un túnel de viento para medir la resistencia aerodinámica de una serie de placas articuladas cuya disposición variaba aleatoriamente.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 5,
+      "source_quote": "Some of the earliest experiments in evolutionary computation accomplished by a group in Berlin, Germany, involved manipulating physical devices [Rechenberg, 1973]... Scoring the set of hinged plates was accomplished in a de facto wind tunnel, where the drag of the plates was measured using a pitot tube."
     },
     {
       "id": "thu8-tf-3",
@@ -491,31 +491,31 @@
       "id": "thu8-mc-1",
       "reading": "thursday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #1 sobre la lectura del jueves de la semana 8",
+      "statement": "En el algoritmo PSO, ¿por qué es necesario imponer un límite superior a la velocidad en cada dimensión (vmax) durante la actualización de las partículas?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Porque la magnitud de las velocidades puede crecer de forma ilimitada sin control, lo que invalida la búsqueda efectiva de óptimos en la función objetivo.)",
+        "Opción B (Porque evita que las partículas se detengan en la primera generación.)",
+        "Opción C (Para evitar que la memoria PersonalBest se reinicie automáticamente.)",
+        "Opción D (Para forzar a que las partículas permanezcan fijas en el origen.)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción A (Porque la magnitud de las velocidades puede crecer de forma ilimitada sin control, lo que invalida la búsqueda efectiva de óptimos en la función objetivo.)",
+      "difficulty_level": 4,
+      "source_quote": "One issue that comes with these update equations is that the particles can see their velocities increase in magnitude without bound. That's not particularly realistic for modeling real flocking and empirically it's not helpful when searching for optima in our typical objective functions. So, a limit is placed on the velocity in each dimension, vmax."
     },
     {
       "id": "thu8-mc-2",
       "reading": "thursday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #2 sobre la lectura del jueves de la semana 8",
+      "statement": "¿Cuál es el mecanismo clave que caracteriza al algoritmo de Evolución Diferencial según Storn y Price (1996)?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (La mutación de un solo bit en secuencias binarias de código Gray.)",
+        "Opción B (El cálculo exacto de la matriz Hessiana en cada iteración.)",
+        "Opción C (El movimiento de los individuos guiado por vectores de diferencia calculados entre otros miembros de la propia población.)",
+        "Opción D (El reemplazo de los parámetros continuos por reglas lógicas de inferencia.)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción C (El movimiento de los individuos guiado por vectores de diferencia calculados entre otros miembros de la propia población.)",
+      "difficulty_level": 5,
+      "source_quote": "The key ingredient in differential evolution is that individuals move based on the differential vectors from the individual to other individuals in the population."
     },
     {
       "id": "thu8-mc-3",
