@@ -32,14 +32,14 @@
       "id": "tue7-tf-3",
       "reading": "tuesday-week-7",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 7",
+      "statement": "Según la lectura, los algoritmos evolutivos ejecutan una búsqueda punto a punto con una única solución candidata, en lugar de mantener una población de soluciones que compiten por sobrevivir.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 3,
+      "source_quote": "First, rather than executing a point-to-point search, they incorporate a population of solutions, each individual solution competing for survival."
     },
     {
       "id": "tue7-tf-4",
@@ -101,31 +101,31 @@
       "id": "tue7-mc-3",
       "reading": "tuesday-week-7",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 7",
+      "statement": "Según la lectura, ¿cómo se puede ampliar efectivamente una búsqueda muy estrecha (de variaciones pequeñas) en un algoritmo evolutivo?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Usando selección débil, que permite que soluciones subóptimas lleguen a ser padres.)",
+        "Opción B (Usando selección fuerte, de modo que solo las mejores soluciones sean padres.)",
+        "Opción C (Reduciendo a cero la desviación estándar de la mutación gaussiana aplicada.)",
+        "Opción D (Eliminando el operador de recombinación y conservando únicamente la mutación.)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción A (Usando selección débil, que permite que soluciones subóptimas lleguen a ser padres.)",
+      "difficulty_level": 7,
+      "source_quote": "A very narrow search can be made effectively broader by using weak selection. This would allow subpar solutions to become parents, thus expanding the application of the narrow search operation."
     },
     {
       "id": "tue7-mc-4",
       "reading": "tuesday-week-7",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 7",
+      "statement": "Cuando no existe una función objetivo clara para medir la calidad de las soluciones (por ejemplo, al evolucionar un audífono para una persona), ¿cómo se llama el enfoque en el que un ser humano guía la selección?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Optimización por enjambre de partículas.)",
+        "Opción B (Búsqueda aleatoria ciega.)",
+        "Opción C (Computación evolutiva interactiva.)",
+        "Opción D (Selección proporcional o de ruleta.)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción C (Computación evolutiva interactiva.)",
+      "difficulty_level": 2,
+      "source_quote": "Having a human in the loop providing guidance for selection is termed interactive evolutionary computation."
     },
     {
       "id": "tue7-mc-5",
@@ -172,27 +172,27 @@
       "id": "thu7-tf-3",
       "reading": "thursday-week-7",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 7",
+      "statement": "En el problema del viajante de 100 ciudades, después de la generación 3000 la combinación de PMX con inversión siguió superando en promedio a la inversión sola.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 7,
+      "source_quote": "Up to generation 3000, the combination of PMX and inversion generated faster improvement than inversion alone, on average. After the 3000th generation, inversion alone did better on average at fine-tuning toward better solutions."
     },
     {
       "id": "thu7-tf-4",
       "reading": "thursday-week-7",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 7",
+      "statement": "Según la lectura, en un problema del viajante con 10 ciudades existen 362,880 recorridos posibles distintos.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 8,
+      "source_quote": "there are 181,440 different paths to choose from."
     },
     {
       "id": "thu7-tf-5",
@@ -241,16 +241,16 @@
       "id": "thu7-mc-3",
       "reading": "thursday-week-7",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 7",
+      "statement": "Según Bäck (1994), para configuraciones típicas de los parámetros y casos de prueba dados, ¿cuál es el orden de los métodos de selección del más débil al más fuerte?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Torneo, proporcional, ranking lineal, plus/comma.)",
+        "Opción B (Plus/comma, torneo, ranking lineal, proporcional.)",
+        "Opción C (Ranking lineal, proporcional, plus/comma, torneo.)",
+        "Opción D (Proporcional, ranking lineal, torneo, plus/comma.)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción D (Proporcional, ranking lineal, torneo, plus/comma.)",
+      "difficulty_level": 8,
+      "source_quote": "the order of selection strength from weakest to strongest is proportional selection, linear ranking selection, tournament selection, and then plus/comma selection."
     },
     {
       "id": "thu7-mc-4",
@@ -312,14 +312,14 @@
       "id": "tue8-tf-3",
       "reading": "tuesday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del martes de la semana 8",
+      "statement": "El criterio de información de Akaike (AIC) evalúa solo la bondad de ajuste del modelo a los datos y no penaliza el número de parámetros libres.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 3,
+      "source_quote": "Essentially, the goodness-of-fit component is penalized by adding a factor that is twice the number of free parameters."
     },
     {
       "id": "tue8-tf-4",
@@ -381,31 +381,31 @@
       "id": "tue8-mc-3",
       "reading": "tuesday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del martes de la semana 8",
+      "statement": "En el ejemplo de los crujidos de hielo del Ártico, ¿qué estructura tenía el mejor modelo ARMA evolucionado después de 100 generaciones?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Cuatro términos de rezago en A(q) y uno en C(q).)",
+        "Opción B (Un término de rezago en A(q) y cuatro en C(q).)",
+        "Opción C (Ocho términos de rezago en A(q) y ocho en C(q).)",
+        "Opción D (Dos términos de rezago en A(q) y tres en C(q).)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción A (Cuatro términos de rezago en A(q) y uno en C(q).)",
+      "difficulty_level": 6,
+      "source_quote": "The best-evolved model after 100 generations had four lag terms in A(q) and one lag term in C(q)"
     },
     {
       "id": "tue8-mc-4",
       "reading": "tuesday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del martes de la semana 8",
+      "statement": "En el ejemplo de regresión donde las predicciones por encima del valor real se penalizan con error absoluto y las que quedan por debajo con error cuadrático, ¿qué ocurre con el modelo lineal evolucionado?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Su intercepto resulta mucho menor, porque predecir por debajo del valor real es lo menos costoso.)",
+        "Opción B (Resulta idéntico al de mínimos cuadrados, porque el ruido tiene media cero y varianza constante.)",
+        "Opción C (Su pendiente se vuelve negativa, porque el error cuadrático domina sobre el error absoluto.)",
+        "Opción D (Su intercepto resulta mucho mayor, porque predecir por encima del valor real cuesta menos.)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción D (Su intercepto resulta mucho mayor, porque predecir por encima del valor real cuesta menos.)",
+      "difficulty_level": 7,
+      "source_quote": "Here, it costs less to predict on the high side, and the optimal model reflects this bias, reflecting on the high side for virtually all the data."
     },
     {
       "id": "tue8-mc-5",
@@ -452,27 +452,27 @@
       "id": "thu8-tf-3",
       "reading": "thursday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #3 sobre la lectura del jueves de la semana 8",
+      "statement": "En la optimización por colonias de hormigas, la feromona se evapora con el tiempo, lo que evita que las hormigas sigan visitando indefinidamente fuentes de alimento ya agotadas.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 2,
+      "source_quote": "The pheromone evaporates over time, so once food sources are exhausted, the ants don't continue to travel to an \"empty refrigerator\" forever."
     },
     {
       "id": "thu8-tf-4",
       "reading": "thursday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del jueves de la semana 8",
+      "statement": "En NSGA-II, a los individuos ubicados en los extremos de cada frente se les asigna una puntuación de aglomeración igual a cero, de modo que sean los primeros en descartarse.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 6,
+      "source_quote": "Individuals at the extremes of each front are assigned a value of positive infinity so that they will always be propagated into the next generation."
     },
     {
       "id": "thu8-tf-5",
@@ -521,16 +521,16 @@
       "id": "thu8-mc-3",
       "reading": "thursday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #3 sobre la lectura del jueves de la semana 8",
+      "statement": "En la optimización por colonias de hormigas aplicada al problema del viajante, ¿cómo depende la probabilidad de que una hormiga vaya de la ciudad i a la ciudad j?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Depende solo de la distancia entre i y j; el factor de feromona no interviene.)",
+        "Opción B (Aumenta con el factor de feromona y también aumenta con la distancia entre i y j.)",
+        "Opción C (Aumenta con el factor de feromona entre i y j y está inversamente relacionada con la distancia entre ellas.)",
+        "Opción D (Disminuye con el factor de feromona y aumenta con la distancia entre i y j.)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción C (Aumenta con el factor de feromona entre i y j y está inversamente relacionada con la distancia entre ellas.)",
+      "difficulty_level": 4,
+      "source_quote": "The higher the value of ph(i, j), the higher the likelihood of traveling to city j. Also, the probability is inversely related to the distance between the current city i and the new city j."
     },
     {
       "id": "thu8-mc-4",
