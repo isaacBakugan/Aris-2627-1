@@ -1,5 +1,5 @@
 {
-  "team": "",
+  "team": "Aris",
   "assignment": "corte-preguntas-3",
   "questions": [
     {
@@ -45,27 +45,27 @@
       "id": "tue7-tf-4",
       "reading": "tuesday-week-7",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 7",
+      "statement": "La pleiotropía es el efecto en el que un único carácter fenotípico se ve afectado por múltiples genes.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 4,
+      "source_quote": "Pleiotropy is the effect where a single gene affects multiple phenotypic characters. Polygeny is the effect where a single phenotypic character is affected by multiple genes."
     },
     {
       "id": "tue7-tf-5",
       "reading": "tuesday-week-7",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 7",
+      "statement": "En la mutación gaussiana x' = x + N(0, σ), si σ tiende a cero hay herencia completa de padre a hijo y no hay búsqueda, porque cada hijo simplemente replica a su padre.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 7,
+      "source_quote": "then there is complete inheritance from parent to offspring and there's no search at all because each offspring merely replicates its parent."
     },
     {
       "id": "tue7-mc-1",
@@ -131,16 +131,16 @@
       "id": "tue7-mc-5",
       "reading": "tuesday-week-7",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 7",
+      "statement": "Según la lectura, ¿qué se puede afirmar de los operadores de búsqueda cuando se consideran todos los problemas posibles?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (La mutación gaussiana siempre supera a la recombinación.)",
+        "Opción B (El cruce de un punto es el operador óptimo en general.)",
+        "Opción C (Ningún operador de búsqueda es superior a cualquier otro.)",
+        "Opción D (Los operadores con varios padres siempre superan a los de un padre.)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción C (Ningún operador de búsqueda es superior a cualquier otro.)",
+      "difficulty_level": 3,
+      "source_quote": "it is provable that across all problems no single search operator is superior to any other."
     },
     {
       "id": "thu7-tf-1",
@@ -198,14 +198,14 @@
       "id": "thu7-tf-5",
       "reading": "thursday-week-7",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 7",
+      "statement": "Según el método de Schwefel para aplicar la regla de 1/5, cuando la tasa de mutaciones exitosas es menor a 0.2 el tamaño de paso de la mutación debe aumentarse.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 7,
+      "source_quote": "When the success rate is too low (< 0.2), the step sizes will become smaller, and conversely when the success rate is too high (> 0.2), the step sizes will increase."
     },
     {
       "id": "thu7-mc-1",
@@ -256,31 +256,31 @@
       "id": "thu7-mc-4",
       "reading": "thursday-week-7",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 7",
+      "statement": "¿Qué dos condiciones requiere la prueba basada en cadenas de Markov para que un algoritmo evolutivo converja con probabilidad 1 a un óptimo global?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Selección elitista y una mutación capaz de alcanzar cualquier estado con probabilidad no nula.)",
+        "Opción B (Selección proporcional y una tasa de cruce muy alta con mutación muy baja.)",
+        "Opción C (Representación binaria y codificación Gray en todos los parámetros.)",
+        "Opción D (Selección por torneo con q = 2 y cruce en lugar de mutación.)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción A (Selección elitista y una mutación capaz de alcanzar cualquier estado con probabilidad no nula.)",
+      "difficulty_level": 8,
+      "source_quote": "without elitist selection and without a mutation operation that can reach all possible states, this proof of convergence with probability 1 does not hold."
     },
     {
       "id": "thu7-mc-5",
       "reading": "thursday-week-7",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 7",
+      "statement": "Al manejar una restricción dura asignando un puntaje infinitamente malo a las soluciones que la violan, ¿cuál es la principal dificultad que señala la lectura?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Obliga a duplicar el tamaño de la población en cada generación.)",
+        "Opción B (Hace que cada solución factible reciba exactamente el mismo puntaje.)",
+        "Opción C (Impide usar mutación gaussiana sobre los parámetros reales.)",
+        "Opción D (Crea zonas del espacio de búsqueda sin información que guíe hacia mejores soluciones.)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción D (Crea zonas del espacio de búsqueda sin información que guíe hacia mejores soluciones.)",
+      "difficulty_level": 5,
+      "source_quote": "The difficulty with this approach is that it sets up areas of the search space that have no information content to direct the evolutionary search to any places of improved performance."
     },
     {
       "id": "tue8-tf-1",
@@ -325,27 +325,27 @@
       "id": "tue8-tf-4",
       "reading": "tuesday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #4 sobre la lectura del martes de la semana 8",
+      "statement": "En el experimento de Axelrod (1987) con el dilema del prisionero iterado, las estrategias primero se alejaron de la cooperación y con el tiempo tendieron a la cooperación mutua.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 5,
+      "source_quote": "The experiment generated binary strings that would diverge initially away from cooperation but then over time would tend toward mutual cooperation."
     },
     {
       "id": "tue8-tf-5",
       "reading": "tuesday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del martes de la semana 8",
+      "statement": "La red neuronal evolucionada Blondie24 fue evaluada entre los 500 mejores de 120,000 jugadores de damas en www.zone.com.",
       "options": [
         "Verdadero",
         "Falso"
       ],
       "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "difficulty_level": 2,
+      "source_quote": "the evolutionary program created a neural network, called Blondie24, that was evaluated as being in the top 500 of 120,000 checkers players on www.zone.com."
     },
     {
       "id": "tue8-mc-1",
@@ -411,16 +411,16 @@
       "id": "tue8-mc-5",
       "reading": "tuesday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del martes de la semana 8",
+      "statement": "En el problema del camión que retrocede hasta el muelle de carga (truck backer-upper), Koza (1992) se apoyó en el cruce de subárboles. ¿Cómo generaba nuevas soluciones el sistema de Chellapilla (1998)?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Con cruce de subárboles y una sola mutación de constantes numéricas.)",
+        "Opción B (Con seis operaciones de mutación distintas y sin cruce de subárboles.)",
+        "Opción C (Con retropropagación sobre una red neuronal de cuatro entradas.)",
+        "Opción D (Con selección proporcional y cruce uniforme sobre cadenas binarias.)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción B (Con seis operaciones de mutación distintas y sin cruce de subárboles.)",
+      "difficulty_level": 8,
+      "source_quote": "In contrast, the system in Chellapilla (1998) relied on six different mutation operations, and no subtree crossover, to generate new solutions."
     },
     {
       "id": "thu8-tf-1",
@@ -478,14 +478,14 @@
       "id": "thu8-tf-5",
       "reading": "thursday-week-8",
       "type": "true_false",
-      "statement": "PONGAN AQUÍ SU PREGUNTA VERDADERO/FALSO #5 sobre la lectura del jueves de la semana 8",
+      "statement": "La optimización por colonias de hormigas surgió después de la optimización por enjambre de partículas y de la evolución diferencial.",
       "options": [
         "Verdadero",
         "Falso"
       ],
-      "correct_option": "Verdadero",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Falso",
+      "difficulty_level": 6,
+      "source_quote": "ACO predates PSO and differential evolution [Dorigo, 1992] and is used generally for combinatorial optimization problems."
     },
     {
       "id": "thu8-mc-1",
@@ -536,31 +536,31 @@
       "id": "thu8-mc-4",
       "reading": "thursday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #4 sobre la lectura del jueves de la semana 8",
+      "statement": "En la optimización multicriterio, ¿cuándo se dice que una solución domina a otra?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (Cuando es mejor que la otra en el criterio más importante, aunque sea peor en los demás.)",
+        "Opción B (Cuando la suma ponderada de sus criterios es mayor que la de la otra.)",
+        "Opción C (Cuando ambas pertenecen al primer frente y tiene menor distancia de aglomeración.)",
+        "Opción D (Cuando es igual o mejor en todos los criterios medibles y mejor en al menos uno.)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción D (Cuando es igual o mejor en todos los criterios medibles y mejor en al menos uno.)",
+      "difficulty_level": 3,
+      "source_quote": "A solution dominates another when it is equally good or better in all measurable criteria, but better in at least one criterion."
     },
     {
       "id": "thu8-mc-5",
       "reading": "thursday-week-8",
       "type": "multiple_choice",
-      "statement": "PONGAN AQUÍ SU PREGUNTA DE SELECCIÓN SIMPLE #5 sobre la lectura del jueves de la semana 8",
+      "statement": "Según Lohn et al. (2015), ¿qué beneficios aportaron las antenas evolucionadas para la misión LADEE de la NASA?",
       "options": [
-        "Opción A (edítenla)",
-        "Opción B (edítenla)",
-        "Opción C (edítenla)",
-        "Opción D (edítenla)"
+        "Opción A (65 % más de cobertura de enlace descendente y 44 % de ahorro de costos.)",
+        "Opción B (44 % más de cobertura de enlace descendente y 65 % de ahorro de costos.)",
+        "Opción C (Duplicaron la ganancia de la antena y redujeron su masa a la mitad.)",
+        "Opción D (Eliminaron la necesidad de validar los diseños en entornos reales.)"
       ],
-      "correct_option": "Opción A (edítenla)",
-      "difficulty_level": 1,
-      "source_quote": "PONGAN AQUÍ LA CITA TEXTUAL DE LA LECTURA que justifica la respuesta correcta"
+      "correct_option": "Opción A (65 % más de cobertura de enlace descendente y 44 % de ahorro de costos.)",
+      "difficulty_level": 8,
+      "source_quote": "65% increased downlink coverage and 44% cost savings for the mission"
     }
   ]
 }
