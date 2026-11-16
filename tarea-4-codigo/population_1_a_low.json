@@ -4,98 +4,98 @@
     "population_size": 10,
     "difference_threshold": 0.05,
     "max_generations": 500,
-    "mutation_variability": 1.0,
+    "mutation_variability": 0.5,
     "generations_elapsed": 500
   },
   "members": [
     {
       "variables": [
-        1.1657
+        1.1656
       ],
       "fitness": 0.7246,
       "genes": [
-        1.1657
+        1.1656
       ]
     },
     {
       "variables": [
-        1.1855
+        1.0677
       ],
-      "fitness": 0.7244,
+      "fitness": 0.7189,
       "genes": [
-        1.1855
+        1.0677
       ]
     },
     {
       "variables": [
-        1.4397
+        0.9603
       ],
-      "fitness": 0.6827,
+      "fitness": 0.6991,
       "genes": [
-        1.4397
+        0.9603
       ]
     },
     {
       "variables": [
-        1.5444
+        0.7902
       ],
-      "fitness": 0.647,
+      "fitness": 0.6388,
       "genes": [
-        1.5444
+        0.7902
       ]
     },
     {
       "variables": [
-        1.5728
+        0.7523
       ],
-      "fitness": 0.6358,
+      "fitness": 0.6206,
       "genes": [
-        1.5728
+        0.7523
       ]
     },
     {
       "variables": [
-        2.0037
+        1.788
       ],
-      "fitness": 0.4112,
+      "fitness": 0.5333,
       "genes": [
-        2.0037
+        1.788
       ]
     },
     {
       "variables": [
-        2.1382
+        1.8611
       ],
-      "fitness": 0.3326,
+      "fitness": 0.4933,
       "genes": [
-        2.1382
+        1.8611
       ]
     },
     {
       "variables": [
-        2.4122
+        1.8627
       ],
-      "fitness": 0.1841,
+      "fitness": 0.4924,
       "genes": [
-        2.4122
+        1.8627
       ]
     },
     {
       "variables": [
-        2.4377
+        2.0895
       ],
-      "fitness": 0.1718,
+      "fitness": 0.361,
       "genes": [
-        2.4377
+        2.0895
       ]
     },
     {
       "variables": [
-        -0.5941
+        2.2989
       ],
-      "fitness": -0.5274,
+      "fitness": 0.2424,
       "genes": [
-        -0.5941
+        2.2989
       ]
     }
   ]

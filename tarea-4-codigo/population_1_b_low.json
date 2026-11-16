@@ -1,0 +1,122 @@
+{
+  "function": "funcion_b_1.py",
+  "parameters": {
+    "population_size": 10,
+    "difference_threshold": 0.05,
+    "max_generations": 500,
+    "mutation_variability": 0.5,
+    "generations_elapsed": 500
+  },
+  "members": [
+    {
+      "variables": [
+        9.522,
+        9.5136
+      ],
+      "fitness": 58.9041,
+      "genes": [
+        9.522,
+        9.5136
+      ]
+    },
+    {
+      "variables": [
+        9.3682,
+        10
+      ],
+      "fitness": 36.1289,
+      "genes": [
+        9.3682,
+        10
+      ]
+    },
+    {
+      "variables": [
+        9.1925,
+        9.2369
+      ],
+      "fitness": 34.0692,
+      "genes": [
+        9.1925,
+        9.2369
+      ]
+    },
+    {
+      "variables": [
+        10,
+        9.2834
+      ],
+      "fitness": 31.3687,
+      "genes": [
+        10,
+        9.2834
+      ]
+    },
+    {
+      "variables": [
+        9.2833,
+        9.0471
+      ],
+      "fitness": 30.8414,
+      "genes": [
+        9.2833,
+        9.0471
+      ]
+    },
+    {
+      "variables": [
+        9.9249,
+        9.7804
+      ],
+      "fitness": 28.8998,
+      "genes": [
+        9.9249,
+        9.7804
+      ]
+    },
+    {
+      "variables": [
+        10,
+        9.8025
+      ],
+      "fitness": 26.5648,
+      "genes": [
+        10,
+        9.8025
+      ]
+    },
+    {
+      "variables": [
+        9.8182,
+        9.0042
+      ],
+      "fitness": 24.6721,
+      "genes": [
+        9.8182,
+        9.0042
+      ]
+    },
+    {
+      "variables": [
+        9.1169,
+        9.0899
+      ],
+      "fitness": 22.3356,
+      "genes": [
+        9.1169,
+        9.0899
+      ]
+    },
+    {
+      "variables": [
+        10,
+        10
+      ],
+      "fitness": 20.0,
+      "genes": [
+        10,
+        10
+      ]
+    }
+  ]
+}
