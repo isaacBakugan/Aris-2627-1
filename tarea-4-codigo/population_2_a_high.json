@@ -1,0 +1,72 @@
+{
+  "function": "funcion_a_2.py",
+  "parameters": {
+    "population_size": 10,
+    "difference_threshold": 0.05,
+    "max_generations": 500,
+    "mutation_variability": 2.0,
+    "generations_elapsed": 279
+  },
+  "members": [
+    {
+      "variables": [
+        1.1655437236257127
+      ],
+      "fitness": 0.7246113535964267
+    },
+    {
+      "variables": [
+        1.1655437236257127
+      ],
+      "fitness": 0.7246113535964267
+    },
+    {
+      "variables": [
+        1.1655437236257127
+      ],
+      "fitness": 0.7246113535964267
+    },
+    {
+      "variables": [
+        1.1721006291508238
+      ],
+      "fitness": 0.7245860948194506
+    },
+    {
+      "variables": [
+        1.1527791937750977
+      ],
+      "fitness": 0.724514562297706
+    },
+    {
+      "variables": [
+        1.1820214106370837
+      ],
+      "fitness": 0.7244515790753944
+    },
+    {
+      "variables": [
+        1.141956144335191
+      ],
+      "fitness": 0.7242807167776315
+    },
+    {
+      "variables": [
+        1.1897085575177548
+      ],
+      "fitness": 0.724267935435358
+    },
+    {
+      "variables": [
+        1.2109249710223446
+      ],
+      "fitness": 0.7234037608620575
+    },
+    {
+      "variables": [
+        1.3330261386361792
+      ],
+      "fitness": 0.7085552946704854
+    }
+  ]
+}
