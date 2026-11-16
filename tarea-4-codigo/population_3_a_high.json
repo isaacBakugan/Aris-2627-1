@@ -1,0 +1,132 @@
+{
+  "function": "funcion_a_3.py",
+  "parameters": {
+    "population_size": 10,
+    "difference_threshold": 0.05,
+    "max_generations": 500,
+    "mutation_variability": 3.0,
+    "generations_elapsed": 500
+  },
+  "members": [
+    {
+      "variables": [
+        1.1655607314149625
+      ],
+      "fitness": 0.7246113537765867,
+      "genes": {
+        "encoding": "real",
+        "values": [
+          1.1655607314149625
+        ]
+      }
+    },
+    {
+      "variables": [
+        1.1655607314149625
+      ],
+      "fitness": 0.7246113537765867,
+      "genes": {
+        "encoding": "real",
+        "values": [
+          1.1655607314149625
+        ]
+      }
+    },
+    {
+      "variables": [
+        1.1655607314149625
+      ],
+      "fitness": 0.7246113537765867,
+      "genes": {
+        "encoding": "real",
+        "values": [
+          1.1655607314149625
+        ]
+      }
+    },
+    {
+      "variables": [
+        1.1655607314149625
+      ],
+      "fitness": 0.7246113537765867,
+      "genes": {
+        "encoding": "real",
+        "values": [
+          1.1655607314149625
+        ]
+      }
+    },
+    {
+      "variables": [
+        1.1655607314149625
+      ],
+      "fitness": 0.7246113537765867,
+      "genes": {
+        "encoding": "real",
+        "values": [
+          1.1655607314149625
+        ]
+      }
+    },
+    {
+      "variables": [
+        1.1655607314149625
+      ],
+      "fitness": 0.7246113537765867,
+      "genes": {
+        "encoding": "real",
+        "values": [
+          1.1655607314149625
+        ]
+      }
+    },
+    {
+      "variables": [
+        1.1655389989251006
+      ],
+      "fitness": 0.7246113534856675,
+      "genes": {
+        "encoding": "real",
+        "values": [
+          1.1655389989251006
+        ]
+      }
+    },
+    {
+      "variables": [
+        1.1655361268773978
+      ],
+      "fitness": 0.7246113534054388,
+      "genes": {
+        "encoding": "real",
+        "values": [
+          1.1655361268773978
+        ]
+      }
+    },
+    {
+      "variables": [
+        3.553941836682087
+      ],
+      "fitness": 0.04519228444911839,
+      "genes": {
+        "encoding": "real",
+        "values": [
+          3.553941836682087
+        ]
+      }
+    },
+    {
+      "variables": [
+        -4.186326575512266
+      ],
+      "fitness": -0.178644306620104,
+      "genes": {
+        "encoding": "real",
+        "values": [
+          -4.186326575512266
+        ]
+      }
+    }
+  ]
+}
